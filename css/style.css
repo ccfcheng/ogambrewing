@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "Celt Rune";
+  src: url("../images/celt-rune.ttf");
+}
+
+body {
+  background-color: black;
+  font-family: Lucida Grande;
+}
+
+.left {
+  width: 300px;
+  margin: 25px;
+  float: left;
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+.right {
+  width: 300px;
+  margin: 25px;
+  float: right;
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0% 5%;
+  background-image: url("../images/Old-forest.jpg");
+  background-size: 100%;
+  overflow: auto;
+  border-radius: 25px;
+}
+
+.heading {
+  height: 100px;
+  text-align: center;
+  padding-top: 25px;
+  font-size: 6em;
+  font-family: 'Celt Rune'; 
+  font-weight: normal; 
+  font-style: normal;
+  background-color: rgba(0,0,0,0.4);
+
+}
+
+.titles {
+  color: #FFF;
+  text-shadow: 0px 0px 10px #777;
+}
+
+.main-nav-bar {
+  background-color: rgba(0,0,0,0.4);
+  float: left;
+  clear: both;
+  width: 100%;
+}
+
+.nav-item {
+  text-align: center;
+  font-size: 1.5em;
+  width: 25%;
+  height: 45px;
+  padding-top: 12px;
+  float: left;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.6);
+
+}
+
+.nav-item:hover {
+  text-shadow: 4px 4px 2px #777;
+}
+
+.sub-nav {
+  font-size: 1em;
+  /*color: white;*/
+
+}
+
+.sub-story {
+  width: 100%;
+  clear: both;
+}
+
+.sub-story-item {
+  font-size: 1em;
+  /*color: white;*/
+  float: left;
+  width: 33.333333333%;
+  height: 32px;
+  text-align: center;
+  padding-top: 16px;
+  background-color: rgba(0,0,0,0.6);
+
+}
+
+.sub-beers {
+  width: 100%;
+  clear: both;
+}
+
+.sub-beers-item {
+  font-size: 1em;
+  /*color: white;*/
+  float: left;
+  width: 14.285714%;
+  height: 40px;
+  text-align: center;
+  padding-top: 8px;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.sub-story-item:hover {
+  text-shadow: 4px 4px 2px #777;
+}
+
+.sub-beers-item:hover {
+  text-shadow: 4px 4px 2px #777;
+}
+
+.content {
+  width: 90%;  
+  padding: 20px 5%;
+  float: left;
+  clear: both;
+  color: white;
+  font-family: Arial;
+  background-color: rgba(0,0,0,0.7);
+  overflow: auto;
+}
+
+.footer {
+  height: 25px;
+  text-align: center;
+  color: white;
+  clear: both;
+  background-color: rgba(0,0,0,0.4);
+
+}
